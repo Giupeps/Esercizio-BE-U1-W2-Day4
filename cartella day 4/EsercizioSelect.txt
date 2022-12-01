@@ -1,0 +1,22 @@
+SELECT * FROM Products
+
+SELECT * FROM Products
+WHERE UnitsInStock >= 40
+
+SELECT LastName, FirstName, City FROM Employees
+WHERE city = 'London'
+
+SELECT * FROM Orders
+ORDER BY Freight DESC 
+
+SELECT * FROM Orders
+WHERE Freight BETWEEN 90 AND 200
+
+SELECT ProductName, CategoryID FROM Products
+WHERE CategoryID = 1 
+
+SELECT * FROM [Order Details]
+WHERE discount != 0
+
+SELECT * FROM Orders
+WHERE CustomerID = 'BOTTM' AND Freight > 50
